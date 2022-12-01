@@ -1,0 +1,108 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+body {
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    background: #1D1E1F;
+    justify-content: center;
+}
+.section{
+    padding: 10px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo_nways{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+ configuration for the first templates
+*/
+.motivation_message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+    width: 342px;
+    background: rgba(211,211,211,0.05);
+    border-radius: 10px;
+}
+.motivation_message p{
+    font-size: 26px;
+    font-weight: 700;
+    color: #d4d4d4;
+}
+.motivation_message span{
+    color: #ffffff;
+}
+.buttons{
+    display: flex;
+    width: 340px;
+    height: 60px;
+    justify-content: space-between;
+}
+.buttons button{
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+}
+.sign_up{
+    background-color: #137337;
+    border: 2px solid #137337;
+}
+.sign_in{
+    background-color: #b13030;
+    border: 2px solid #b13030;
+}
+.our_comminoty{
+    display: flex;
+    width: 200px;
+    opacity: 0.8;
+    justify-content: space-between;
+}
+/* 
+configuration the seconde template
+*/
+.sign-up{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 270px;
+    color: rgba(255,255,255,0.9);
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    font-weight: 400;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+}
+input{
+    width: 360px;
+    height: 60px;
+    border-radius: 30px;
+    color: rgb(255,255,255);
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.75);
+}
+input::placeholder{
+    padding-left: 40px;
+    color: rgba(255,255,255,0.9);
+}
