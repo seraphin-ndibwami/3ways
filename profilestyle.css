@@ -1,0 +1,60 @@
+@media screen and (max-width:480px) {
+
+    *{
+        box-sizing: border-box;
+    }
+/* utilities */
+    .flex {
+        display: flex;
+    }
+    .block {
+        display: block;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+    /* defining font and background colors  */
+    body {
+        background-color: #1D1E1F;
+        color: white;
+    }
+
+    .default_user_image i{
+        color: white;
+        font-size: 80px;
+    }
+
+    .invite_button button {
+        background-color: #137337;
+    }
+
+    .invitations_section {
+       background-color: #717375;
+    }
+
+    /* Element position */
+    /* .invite_Text {
+       gap: 20px;
+    
+    } */
+
+    .send_recieved{
+        gap: 20px;
+        width: 40%;
+    }
+
+    .profile_image {
+       text-align: center;
+    }
+
+    /* white rounded */
+    .white_rounded {
+      
+        background-color: white;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+}
