@@ -42,14 +42,15 @@
 
     /* Element position */
     .invite_Text {
-       gap: 80px;
+       gap: 110px;
     
     }
 
     .send_recieved{
-        gap: 20px;
-        width: 40%;
+        width: 50%;
         padding-top:14px ;
+        font-size: small;
+
     }
 
     .profile_picture {
@@ -58,6 +59,7 @@
 
     /*rounded */
     .rounded {
+        
         width: 10px;
         height: 10px;
         border-radius: 50%;
@@ -71,6 +73,7 @@
     .white_rounded {
       
         background-color: white;
+        border: 1px solid white;
        
     }
 
@@ -80,13 +83,13 @@
 
     .green_rounded {
         background-color: #137337 ;
+        border: 1px solid #137337 ;
+        
     }
 
     .black_rounded {
         border: 1px solid white ;
-        padding: 8px;
-        width: 8px;
-        height: 8px;
+        
     }
     .invitations_section_rounds{
         gap: 9px;
@@ -104,6 +107,12 @@
 
     .invitation_container{
         padding-top: 7px;
+        height: 305px;
+        overflow: scroll;
+    }
+
+    .small_profile_picture {
+        padding: 12px;
     }
 
     .invite_button button{
@@ -121,6 +130,10 @@
     .invite_button button{
         border-radius: 12px;
         font-size: 30px;
+     }
+
+     .rightsection div  {
+        padding-bottom: 10px;
      }
 
    
