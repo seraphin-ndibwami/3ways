@@ -60,11 +60,10 @@
     /*rounded */
     .rounded {
         
-        width: 10px;
-        height: 10px;
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
-        padding: 9px;
-        margin-left: 10px;
+        
         margin: 1px;
 
     }
@@ -83,7 +82,7 @@
 
     .green_rounded {
         background-color: #137337 ;
-        border: 1px solid #137337 ;
+        border: 1px solid white ;
         
     }
 
