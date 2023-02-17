@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    <title>interface du jeux</title>
+</head>
+<body>
+    <div class="div_principal">
+        <!--  partie entete (pour les avantar)-->
+
+        <div class="div_entete">
+            
+            <div class="avatar1"><img src="./icones/Avatar.svg" alt="avatar"> </div>
+            <div class="vic"><p>victor</p></div>
+        
+
+            <div class="div_time">
+                <div class="time"><img src="./icones/Temps Icône.svg" alt=""></div>
+                <div class="min"><p>10min</p></div>
+            </div>
+
+            
+            <div class="avatar2"><img src="./icones/Avatar 2.svg" alt="avatar"> </div>
+            <div class="glo"><p>gloire</p></div>
+            
+        </div>
+        <div class="gameEnd">
+            <p class="white" id="endGameStatus">the end of the game</p>
+            <div>
+                <input type="button" value="Annuler" >
+                <input type="button" value="Recommencer" id="reloadGame">
+            </div>
+        </div>
+
+        <!-- interface du jeux -->
+        <div class="jeux">
+            <div id="c1"></div>
+            <div id="c2"></div>
+
+            <div class="cell" id="cr1" data-cell></div>
+            <div class="cell" id="cr2" data-cell></div>
+            <div class="cell" id="cr3" data-cell></div>
+            <div class="cell" id="cr4" data-cell></div>
+            <div class="cell" id="cr5" data-cell></div>
+            <div class="cell" id="cr6" data-cell></div>
+            <div class="cell" id="cr7" data-cell></div>
+            <div class="cell" id="cr8" data-cell></div>
+            <div class="cell" id="cr9" data-cell></div>
+
+            <div class="hor1"></div>
+            <div class="hor2"></div>
+            <div class="vert1"></div>
+            <div class="vert2"></div>
+
+            <div class="obl11"></div>
+            <div class="obl12"></div>
+            <div class="obl21"></div>
+            <div class="obl22"></div>
+        </div>
+
+        <!-- partie pour les pions-->
+        <div class="div_piyon">
+            <div class="piyon1">
+                <div>
+                    <div class="piyon_rouge"></div>
+                    <div class="piyon_rouge"></div>
+                    <div class="piyon_rouge"></div>
+                </div>
+                <div class="p1"><p>piyon1</p></div>
+            </div>
+
+            <div class="piyon2">
+                <div>
+                    <div class="piyon_vert"></div>
+                    <div class="piyon_vert"></div>
+                    <div class="piyon_vert"></div>
+                </div>
+                <div class="p2"><p>piyon2</p></div>
+            </div>
+            <h1 id="gamestatus">Le jouer 1 commence!</h1>
+
+        </div>
+        <div  class="div_causerie">
+
+            <div class="microphone"> <img src="./icones/Microphone Icône.svg" alt="micro"></div>
+            <div class="message"> <img src="./icones/Messagerie Icône.svg" alt=""></div>
+            <div class="telephone"><img src="./icones/Téléphone Débranché Icône 2.png" alt=""></div>
+
+        </div>
+
+        <script src="morpion1.js"></script>
+    </div>
+    </body>
+</html>

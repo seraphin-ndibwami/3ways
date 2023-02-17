@@ -1,0 +1,320 @@
+*{
+    margin: 0px; padding: 0px;
+}
+
+body{
+    background-color: #333333;
+}
+
+
+.div_principal{
+    position: absolute;
+    width: 390px; height: 844px;
+    background-color: black;
+    top: 50%; 
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+.div_entete{
+    background-color: #808080;
+    width: 344px; height: 87px;
+    border-radius: 8px;
+    position: absolute;  left: 23px; top: 109px;
+    display: flex;
+}
+
+.div_time{
+    background-color: #000;
+    width: 123px; height: 57px;
+    position:absolute; left: 111px; top: 15px;
+}
+.time{
+    width: 32px; height: 32px;
+    position: absolute;  left: 45px; top: 4px;
+}
+
+.min{
+    position: absolute;  left: 43px; top: 38px;
+    color: #03FF0C;
+}
+
+.avatar1{
+    position: absolute;  left: 17px; top: 7px;
+
+}
+.avatar2{
+    position: absolute;  left: 274px; top: 7px;
+
+}
+
+.vic{
+    width: 32px;height: 15px;
+    position: absolute; left: 26px; top: 61px; 
+}
+.glo{
+    width: 33px;width: 15px;
+    position: absolute;  left: 283px; top: 61px;
+}
+
+
+
+
+
+.jeux{
+    width: 280px;height: 280px;
+    position:absolute; left: 60px; top: 287px;
+}
+
+#c1{
+    border: 1px solid #808080;
+    height: 260px;width: 260px;
+    position:absolute; left: 5px; top: 5px;
+}
+
+#c2{
+    border: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position:absolute; left: 10px; top: 10px;
+}
+
+
+
+
+
+
+#cr1{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 0px; top: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr2{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 125px; top: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr3{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 250px; top: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr4{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 0px; top: 125px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr5{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 125px; top: 125px;
+    border-radius: 50%;
+    background-color:  #000;
+    z-index: 1;
+}
+
+#cr6{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 250px; top: 125px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr7{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 0px; top: 252px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr8{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 125px; top: 252px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr9{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 250px; top: 252px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+
+
+.vert1{
+    border-left: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 132.5px; top: 10px;
+}
+
+.vert2{
+    border-left: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 137.5px; top: 10px;
+}
+
+.hor1{
+    border-top: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 10px; top: 132.5px;
+}
+
+.hor2{
+    border-top: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 10px; top: 137.5px;
+}
+
+.obl11{
+    width: 361.33px;height: 361.33px;
+    border-top: 1px solid #808080 ;
+    transform: rotate(45.06deg);
+    transform-origin: 5.5px 8.5px;    
+    position: inherit; left: 5px; top: 5px;
+}
+
+.obl12{
+    width: 353.552px;height: 353.552px;
+    border-top: 1px solid #808080 ;
+    transform: rotate(45.06deg);
+    transform-origin: 8.5px 5.5px;    
+    position: inherit; left: 2px; top: 4px;
+}
+
+
+.div_piyon{
+    width: 274px; height: 41px;
+    position: absolute; left: 58px; top: 594px;
+}
+
+.piyon_rouge{
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background-color: #FC000C;
+    display: inline-block;
+}
+.piyon1{
+    position:absolute; left: 0px; right: 0px;
+}
+
+.piyon2{
+    text-align: right;
+    position: absolute; left: 204px; top: 0px;
+}
+.piyon_vert{
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background-color: #03FF0C;
+    display: inline-block;
+}
+
+.p1{
+    width: 40px; height: 15px;
+    position: absolute; left: 12px; top: 26px;
+}
+.p1 p{
+    color:white;
+}
+
+.p2{
+    width: 40px; height: 15px;
+    position: inherit; left: 12px; top: 26px;
+}
+.p2 p{
+    color:white;
+}
+
+
+
+
+.div_causerie{
+    width: 323px; height: 80px;
+    position: inherit; left: 34px; top: 694px;
+    border-radius: 5px;
+    border:solid 1px #808080;
+    display: flex;
+}
+
+.microphone{
+    width: 44px; height: 44px;
+    position: absolute;left: 23px; top: 19px;
+}
+
+.message{
+    width: 44px; height: 44px;
+    position: absolute;left: 136px; top: 18px;
+}
+
+.telephone{
+    width: 44px; height: 44px;
+    position: absolute;left: 257px; top: 18px;
+}
+
+.gameEnd{
+    /* display: none; */
+    width: 380px;height: 220px;
+    position:absolute;top: 310px;
+    margin: 6px;
+    bottom: 0px;
+    border-radius: 12px;
+    visibility: hidden;
+    border:solid 1px #808080;
+    background-color: rgba(255, 255, 255, .3);
+    transform: scale(0.1);
+    transition: bottom 0.8s, transform 0.8s, z-index 0.8s;
+
+    z-index: -1;
+}
+
+.showEnd{
+    visibility: visible;
+    bottom: 50px;
+    transform: scale(1);
+    z-index: 10;
+
+
+}
+.showEnd div{
+    position: relative;
+    margin-top: 40%;
+    margin-left: 10%;
+    display: flex;
+    gap: 2rem;
+}
+
+.showEnd input{
+    
+    transform: translate(-45%,-45%);
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, .65);
+    cursor: pointer;
+}

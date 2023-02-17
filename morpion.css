@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 838px;
+    background-color: #000;
+}
+.principale{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.entete{
+
+    display:flex;
+    justify-content: space-evenly;
+    width: 95%;
+    background-color: #808080;
+    margin-left: 2.5%;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.avatar{
+    margin: 5px 0px;
+}
+.time{
+    background-color: #000;
+    width: 30%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time p{
+    color: #03FF0C;
+}
+
+
+.jeux{
+    width: 280px;height: 280px;
+    position:absolute; left: 60px; top: 287px;
+}
+
+#c1{
+    border: 1px solid #808080;
+    height: 260px;width: 260px;
+    position:absolute; left: 5px; top: 5px;
+}
+
+#c2{
+    border: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position:absolute; left: 10px; top: 10px;
+}
+
+#cr1{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 0px; top: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr2{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 125px; top: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr3{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 250px; top: 0px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr4{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 0px; top: 125px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr5{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 125px; top: 125px;
+    border-radius: 50%;
+    background-color:  #000;
+    z-index: 1;
+}
+
+#cr6{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 250px; top: 125px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr7{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 0px; top: 252px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr8{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 125px; top: 252px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+
+#cr9{
+    border: 1px solid #808080;
+    height: 20px;width: 20px;
+    position:absolute; left: 250px; top: 252px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: 1;
+}
+.cell{
+    cursor: pointer;
+}
+
+
+
+.vert1{
+    border-left: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 132.5px; top: 10px;
+}
+
+.vert2{
+    border-left: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 137.5px; top: 10px;
+}
+
+.hor1{
+    border-top: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 10px; top: 132.5px;
+}
+
+.hor2{
+    border-top: 1px solid #808080 ;
+    height: 250px;width: 250px;
+    position: inherit; left: 10px; top: 137.5px;
+}
+
+.obl11{
+    width: 361.33px;height: 361.33px;
+    border-top: 1px solid #808080 ;
+    transform: rotate(45.06deg);
+    transform-origin: 5.5px 8.5px;    
+    position: inherit; left: 5px; top: 5px;
+}
+
+.obl12{
+    width: 353.552px;height: 353.552px;
+    border-top: 1px solid #808080 ;
+    transform: rotate(45.06deg);
+    transform-origin: 8.5px 5.5px;    
+    position: inherit; left: 2px; top: 4px;
+}
+
+.piyons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+.rouge{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+   
+}
+.vert{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+.rouge div{
+    width: 20px;height: 20px;
+    border-radius: 50%;
+    background-color: #FC000C;
+}
+.vert div{
+    width: 20px;height: 20px;
+    border-radius: 50%;
+    background-color: #03FF0C;
+}
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
