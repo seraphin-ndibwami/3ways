@@ -1,75 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile</title>
-    <link rel="stylesheet" href="profilestyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class="menu">
-        <i class="fa fa-bars"></i>
-    </div>
-    <div class="profile_picture">
-        <img src="" alt="">
-       <div class="default_user_image">
-            <i class="fa fa-user-o"></i>
-       </div> 
-
-    </div>
-<!-- INvitation /sent and recieved -->
-    <div class="invite_Text flex">
-        <div class="Invitation">
-            <p>Invitations</p>
-        </div>
-
-        <div class="send_recieved flex">
-              <form action="" id="invitationsFormular" >
-                <input type="radio" name="recieved" id="recieved" value="recieved"><label for="recieved">Recieved</label>
-                <input type="radio" name="recieved" id="recieved" value="recieved"><label for="recieved">Sent</label>
-            
-              </form>
-        </div>
-    </div>
-    <!-- end invitation /sent and recieved  -->
-
-
-    <!-- Start invitstion section -->
-    <div class="invitation_container">
-        <div class="invitations flex">
-            <div class="people_to_invite ">
-                <div class="small_profile_picture">
-                    <div class="small_picture">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>profile</title>
+            <link rel="stylesheet" href="../static/css/newprofile.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+                <div class="menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="profile_picture">
+                    <img src="../static/images/Avatar.png" alt="">
+                    <!-- <div class="default_user_image">
                         <i class="fa fa-user-o"></i>
-                    </div>
+                    </div>  -->
 
                 </div>
-            </div>
-            <div class="rightsection">
-                <div class="smallname">Name</div>
-                    <div class="invitations_section_rounds flex">
-                        <div class="green_rounded rounded"> </div>
-                            <div class="black_rounded rounded"> </div>
-                        </div>
-        
+                <!-- INvitation /sent and recieved -->
+                <div class="invite_Text flex">
+                    <div class="Invitation">
+                        <p>Invitations</p>
                     </div>
-            </div>
-          
-    </div>
-       
-            
-  
-<!-- Invitation Section Ends here -->
 
-<!-- Inviting -->
-    <div class="invite_button">
-            <button>Invite a friend</button>
-    </div>
-<!-- End inviting people -->
+                    <div class="send_recieved flex">
+                        <div class="send_tab_container"> <button class="send_tab">Sent</button></div>
+                        <div class="recieve_tab_container"> <button class="recieve_tab">Received</button> </div>
+                    </div>
+                </div>
+                <!-- end invitation /sent and recieved  -->
 
-    <script src="./profile.js"></script>
+
+                <!-- Start invitstion section -->
+                <div class="invitation_container">
+                        <div class="invitations flex" id="recieved">
+                            <div class="people_to_invite flex">
+                                <div class="small_picture">
+                                    <img src="../static/images/Avatar.png" alt="">
+                                    <!-- <i class="fa fa-user-o"></i> -->
+                                </div>
     
-</body>
+                                <div class="rightsection flex">
+                                    <div class="status-name flex">
+                                        <div class="smallname">Gloire Ahadi</div>  
+                                    </div>
+                                    <div class="section_rounds flex">
+                                        <div class="green_rounded rounded"> </div>
+                                        <div class="black_rounded rounded"> </div>
+                                    </div>
+                                       
+                                </div>
+                            </div>
+                         
+    
+                            <div class="status">Offline</div>
+                        </div>
+
+                
+                    
+                        <div class="invitations flex" id="Sent">
+                             <div class="people_to_invite flex">
+                                    <div class="small_picture">
+                                        <img src="../static/images/Avatar.png" alt="">
+                                        <!-- <i class="fa fa-user-o"></i> -->
+                                    </div>
+
+                                    <div class="rightsection flex">
+                                        <div class="status-name flex">
+                                            <div class="smallname">Gloire Ahadi</div>  
+                                        </div>
+                                        <div class="invitations_section_rounds flex">
+                                            <div class="green_rounded rounded"> </div>
+                                            <div class="black_rounded rounded"> </div>
+                                        </div>
+                                        
+                                    </div>
+                             </div>
+
+                                <div class="status">Offline</div>
+                        </div> 
+                </div>
+                
+                        
+            
+                <!-- Invitation Section Ends here -->
+
+                <!-- Inviting -->
+                    <div class="invite_button flex">
+                            <button> <i class="fa fa-send"></i></button>
+                    </div>
+                <!-- End inviting people -->
+
+                <!-- Accept and Decline Section Start here  -->
+
+                <div class="accept_decline_section">
+                    <div class="accept_decline_content">
+                        <div class="profile_picture">
+                            <img src="../static/images/Avatar.png" alt="profile Picture">
+                        </div>
+
+                        <div class="informations flex">
+                            <div class="name">Gloire Ahadi</div>
+                            <div class="section_rounds flex">
+                                <div class="green_rounded rounded"> </div>
+                                <div class="green_rounded rounded"> </div>
+                                <div class="green_rounded rounded"> </div>
+                                <div class="black_rounded rounded"> </div>
+                                <div class="black_rounded rounded"> </div>
+                            </div>
+                        </div>
+
+                        <div class="message">Invited you to play</div>
+
+                        <div class="logotype flex">
+                            <img src="../static/images/logo_3ways_game.png" alt="">
+                        </div>
+
+                        <div class="confirmationSection flex">
+                            <button class="accept">Accept</button>
+                            <button class="decline">Decline</button>
+                        </div>
+                    </div>
+                   
+
+                </div>
+
+        <script src="../static/js/profile.js"></script>
+        </body>
 </html>
