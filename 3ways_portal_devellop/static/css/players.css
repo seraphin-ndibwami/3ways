@@ -1,0 +1,41 @@
+.small_picture{
+    transform: translate(0px ,0px) scale(1) ;
+    transition: transform 0.8s;
+}
+
+
+
+
+.status-name{
+    transform: translate(0px ,0px) ;
+    margin-top: 1px;
+    transition: transform 0.8s;
+}
+
+.status{
+    transform: translate(0px ,0px) ;
+    margin-top: 1px;
+    transition: transform 0.8s;
+}
+
+
+.small_picture_class {
+    transform: translate(129.5px ,-28px) scale(1.5) ;
+}
+
+
+
+
+.status-name_class {
+    transform: translate(-35px ,0px) ;
+    margin-top: 9px;
+}
+
+.status_class {
+    transform: translate(-45px ,0px) ;
+    margin-top: 9px;
+}
+
+
+
+
